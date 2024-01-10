@@ -1,0 +1,70 @@
+body{
+    margin-left: 4% ;
+    margin-top: 1%;
+    background-image: url(./source/img/LPWallpaper.jpg);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0,3;
+}
+
+.Descripcion{
+    font-size: 1.2em;
+    color: antiquewhite;
+}
+
+.banda{
+    height: 250px;
+    border-radius: 10%;
+    border-style: double;
+    border-color: rgb(250, 232, 210);
+}
+
+h1{
+    color: aliceblue;
+    font-size: 2em;
+    font-style: inherit;
+}
+
+h2{
+    font-size: 2em;
+    color: aliceblue ;
+}
+
+li, .linkWeb{
+    font-size: 1.4em;
+    color: bisque;
+}
+
+caption{
+    font-size: 1.3em;
+    color: aliceblue;
+}
+
+table{
+    font-size: 1.1em;
+    padding: 5px;
+    color: bisque;
+    border-radius: 5%;
+    border-style: double;
+    border-color: rgb(172, 171, 171);
+}
+
+thead, tfoot, .filaI{
+    background-color: rgb(19, 19, 105);
+    color: aliceblue;
+}
+
+td, th{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    border-radius: 10%;
+    border-style: double;
+    border-color: grey;
+}
+
+tfoot{
+    padding-top: 222px;
+    padding-bottom: 21px;
+}
