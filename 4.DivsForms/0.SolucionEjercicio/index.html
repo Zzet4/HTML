@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100%;
+           
+        }
+        .container{
+            width: 100%;
+        }
+        .header{
+            text-align: center;
+            height: 65px;
+            display: flex;
+            background-color: rgb(57, 5, 109);
+        }
+        h1{
+            color: burlywood;
+        }
+        /*
+        .loginmenu{
+            float: right;
+        }
+        */
+        .signup{
+            height: 38px;
+            width: 99px;
+        }
+        .login{
+            height: 38px;
+            width: 99px;
+        }
+        .logout{
+            height: 65px;
+            width: 65px;
+        }
+        .main{
+            width: 88%;
+            height: 128px;
+            float: left;
+            background-color: rgb(81, 73, 110);
+        }
+        .contenidoPrincipal{
+            text-align: center;
+            font-size: 1.2em;
+            color: burlywood;
+        }
+        ul{
+            color: rgb(5, 173, 173);
+        }
+        a{
+            font-size: 1.2em;
+            color: burlywood;
+        }
+        .menu{
+            width: 12%;
+            height: 128px;
+            float: left;
+            background-color: rgba(22, 7, 58, 0.781);
+        }
+        .footer{
+            text-align: center;
+            height: 50px;
+            clear: both;
+            background-color: rgb(95, 3, 180);
+        }
+        .enlacePie{
+            color:rgb(5, 173, 173);
+        }
+    </style>
+      <script>
+        function loadPage(page){
+            alert("hola"+page);
+            document.getElementsByClassName("main").innerHTML='<object type="text/html" height="1650px" width="100%" data="'+page+'"></object>';
+        }
+
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Musica y Recetas</h1>
+          <!--  <div class="loginmenu"> -->
+                <img class="signup" src="./img/SignUpPNG.png">
+                <img class="login" src="./img/LoginPNG.png">
+                <a href="#" onclick="loadPage('./img/HastaLuegoLucas.png');"><img class="logout" src="./img/LogoutPNG.png"></a>
+           <!-- </div> -->
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="./html/Listas_Recetas/recetas.html" title="Ir a Receta" target="_blank">Receta</a></li>
+                <li><a href="./html/2.Ejercicio_Grupo_Musica/index2.html" title="Ir a Grupo Música" target="_blank">Grupo Música</a></li>
+                <li><a href="#" onclick="loadPage('html/2.Ejercicio_Grupo_Musica/index2.html');"> Enlace 3 </a></li>
+            </ul>
+        </div>
+        <div class="main">
+
+            <p class="contenidoPrincipal">Este es el contenido principal de la página
+                <br>donde se muestran las imágenes
+                <br>y el texto general de la página
+                <br>de inicio
+                <a href="/4.DivsForms/0.SolucionEjercicio/html/2.Ejercicio_Grupo_Musica/index.html"> </a>
+            </p>
+
+        </div>
+        <div class="footer">
+            <p class="enlacePie">©<a href="https://cftic.centrosdeformacion.empleo.madrid.org/" title="Ir a Web CFTIC" target="_blank">CFTIC Getafe</a> 2024</p>
+        </div>
+    </div>
+</body>
+</html>
